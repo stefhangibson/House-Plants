@@ -56,6 +56,20 @@ export const plants = [
     wd: 'moist soil mist daily',
     light: 'full sun Bright',
     image: <img src= 'https://i.imgur.com/6cUcfCw.png' alt='jester crown fern'/>
+  },
+  {
+    id: 9,
+    name: 'Pothos',
+    wd: 'Allow top inch to dry',
+    light: 'bright indirect',
+    image: <img src='https://i.imgur.com/y7wo0f7.jpg' alt='Pothos plant' />
+  },
+  {
+    id: 10,
+    name: 'Split Leaf',
+    wd: 'allow top 25% of soil to dry',
+    light: 'Med to Bright',
+    image: <img src='https://i.imgur.com/ljaapsz.jpg' alt='Split Leaf plant' />
   }
 
 ];
