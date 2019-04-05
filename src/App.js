@@ -3,6 +3,7 @@ import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { plants } from './plants';
 import './App.css';
+import Scroll from './Scroll';
 
 
 class App extends Component  {
@@ -25,7 +26,9 @@ onSearchChange = (event) => {
       <div className='tc'>
         <h1 className='f1'>HOUSE PLANTS</h1>
         <SearchBox searchChange={this.onSearchChange}/>
-        <CardList plants ={filteredPlants} />
+        <Scroll>
+          <CardList plants ={filteredPlants} />
+        </Scroll>
       </div>
     );
   }

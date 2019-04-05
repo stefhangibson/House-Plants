@@ -10,6 +10,5 @@ src: local('Plateaux Medium'), url('Plateaux (2).woff') format('woff');
 h1 {
   font-family: 'Plateaux Medium';
   font-weight: 100;
-  font-size: 10px;
 
 }

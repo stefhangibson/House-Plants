@@ -10,7 +10,7 @@ export const plants = [
   },
   {
     id: 2,
-    name: 'Heartleaf Philo.',
+    name: 'Heartleaf ',
     wd: 'light moist soil mist occ',
     light: 'moderate bright',
     image: <img src= 'https://i.imgur.com/iMZdxr1.jpg' alt='Philodendrin' />
@@ -24,7 +24,7 @@ export const plants = [
   },
   {
     id: 4,
-    name: 'Carnivorous Pitcher',
+    name: 'Pitcher',
     wd: 'moist soil mist daily',
     light: 'moderate bright light',
     image: <img src= 'https://i.imgur.com/xnG5yB7.jpg' alt = 'fly trap'/>
@@ -45,14 +45,14 @@ export const plants = [
   },
   {
     id: 7,
-    name: 'Dwarf Holly Fern',
+    name: 'Dwarf Holly ',
     wd: 'light moist soil mist daily',
     light: 'bright indirect',
     image: <img src= 'https://i.imgur.com/P9In8ye.jpg' alt='boston fern'/>
   },
   {
     id: 8,
-    name: 'Jesters Crown Fern',
+    name: 'Jesters Crown ',
     wd: 'moist soil mist daily',
     light: 'full sun Bright',
     image: <img src= 'https://i.imgur.com/6cUcfCw.png' alt='jester crown fern'/>
